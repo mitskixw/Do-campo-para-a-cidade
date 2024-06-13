@@ -36,10 +36,20 @@ body
     margin-right: 0;
   }
 
+  
+.container {
+    overflow: hidden; /* Limpa o float */
+  }
 
-<div class="container">
-  <img src="R 1.png" alt="Imagem 1">
-  <img src="OIP (1) 1.png" alt="Imagem 2">
-  <img src="OIP 1.png" alt="Imagem 3">
+  .column {
+    float: left;
+    width: 50%; /* Duas colunas, cada uma ocupando metade do contêiner */
+    padding: 10px; /* Espaçamento interno */
+  }
 
-</div>
+  /* Limpa o float para evitar problemas de layout */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
