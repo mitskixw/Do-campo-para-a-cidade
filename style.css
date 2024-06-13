@@ -16,6 +16,23 @@ header {
     }    
 }
 
-body {
+body 
+{
     background-color: hsl(18, 26%, 70%); /* cor de fundo cinza claro */
   }
+
+  .container {
+    display: flex;
+  }
+
+  .container img {
+    width: 25.22%;
+    height: auto;
+    margin-right: 15px; /* Espaçamento horizontal entre as imagens */
+  }
+
+  /* Para remover a margem direita da última imagem */
+  .container img:last-child {
+    margin-right: 0;
+  }
+
