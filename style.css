@@ -16,12 +16,7 @@ header {
     }    
 }
 
-body 
-{
-    background-color: hsl(18, 26%, 70%); /* cor de fundo cinza claro */
-  }
-
-  .container {
+b .container {
     display: flex;
   }
 
@@ -35,4 +30,13 @@ body
   .container img:last-child {
     margin-right: 0;
   }
+  
 
+head
+body
+
+div class="container"
+  <img src="R 1.png" alt="Imagem 1"
+  <img src="OIP (1) 1.png" alt="Imagem 2"
+  <img src="OIP 1.png" alt="Imagem 3"
+div
