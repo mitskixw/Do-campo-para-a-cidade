@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Englebert&display=swap');
 
 header {
     background-color: hwb(83 19% 55%);
@@ -9,12 +8,13 @@ header {
 }
 
 .titulo {
-    .cormorant-garamond-light{
-        font-family: "Cormorant Garamond", serif;
-        font-weight: 300;
-        font-style: normal;
-    }    
-}
+  .englebert-regular {
+    font-family: "Englebert", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+    } 
 
 body 
 {
