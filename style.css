@@ -59,7 +59,7 @@ body
     border: 2px solid hwb(83 19% 55%);
     border-radius: 15px;
     padding: 20px;
-    color: hwb(51 81% 9%);
+    color: hsl(18, 26%, 70%);
     font-family: Arial, sans-serif;
 }
 a {
