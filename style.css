@@ -53,3 +53,16 @@ body
     clear: both;
     display: table;
   }
+
+  .caixa-verde {
+    background-color: hsl(134, 41%, 88%);
+    border: 2px solid hsl(134, 41%, 83%);
+    border-radius: 15px;
+    padding: 20px;
+    color: hsl(134, 61%, 21%);
+    font-family: Arial, sans-serif;
+}
+a {
+    color: hsl(134, 61%, 21%);
+    text-decoration: underline;
+}
