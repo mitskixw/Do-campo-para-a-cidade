@@ -54,10 +54,11 @@ body
     display: table;
   }
 
-  .container img {
-    width: 25.22%;
-    height: auto;
-    margin-right: 450px; /* Espaçamento horizontal entre as imagens */
+  .mato img {
+    max-width:200px;
+    max-height:450px;
+    width: auto;
+    height: auto;/* Espaçamento horizontal entre as imagens */
   }
 
   .caixa-verde {
