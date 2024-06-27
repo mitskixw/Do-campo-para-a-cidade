@@ -54,6 +54,12 @@ body
     display: table;
   }
 
+  .container img {
+    width: 25.22%;
+    height: auto;
+    margin-right: 450px; /* Espaçamento horizontal entre as imagens */
+  }
+
   .caixa-verde {
     background-color: hwb(83 19% 55%);
     border: 2px solid hwb(83 19% 55%);
